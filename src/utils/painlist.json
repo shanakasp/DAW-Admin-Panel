@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "image": "./images/images.jpeg",
+    "title": "Head Pain"
+  },
+  {
+    "id": 2,
+    "image": "./images/knee.jpeg",
+    "title": "Knees Pain"
+  },
+  {
+    "id": 3,
+    "image": "./images/body.jpg",
+    "title": "Body Pain"
+  },
+  {
+    "id": 4,
+    "image": "./images/legs.jpg",
+    "title": "Legs Pain"
+  },
+  {
+    "id": 5,
+    "image": "./images/hand.jpeg",
+    "title": "Hand Pain"
+  },
+  {
+    "id": 6,
+    "image": "./images/back_pain.jpg",
+    "title": "Back Pain"
+  },
+  {
+    "id": 7,
+    "image": "./images/neck_pain.jpg",
+    "title": "Neck Pain"
+  },
+  {
+    "id": 8,
+    "image": "./images/shoulder_pain.jpg",
+    "title": "Shoulder Pain"
+  },
+  {
+    "id": 9,
+    "image": "./images/foot_pain.jpg",
+    "title": "Foot Pain"
+  },
+  {
+    "id": 10,
+    "image": "./images/elbow_pain.jpg",
+    "title": "Elbow Pain"
+  },
+  {
+    "id": 11,
+    "image": "./images/tooth_pain.jpg",
+    "title": "Tooth Pain"
+  },
+  {
+    "id": 12,
+    "image": "./images/stomach_pain.jpg",
+    "title": "Stomach Pain"
+  },
+  {
+    "id": 13,
+    "image": "./images/hip_pain.jpg",
+    "title": "Hip Pain"
+  },
+  {
+    "id": 14,
+    "image": "./images/joint_pain.jpg",
+    "title": "Joint Pain"
+  },
+  {
+    "id": 15,
+    "image": "./images/migraine.jpg",
+    "title": "Migraine"
+  },
+  {
+    "id": 16,
+    "image": "./images/wrist_pain.jpg",
+    "title": "Wrist Pain"
+  },
+  {
+    "id": 17,
+    "image": "./images/eye_strain.jpg",
+    "title": "Eye Strain"
+  },
+  {
+    "id": 18,
+    "image": "./images/sinus_pain.jpg",
+    "title": "Sinus Pain"
+  },
+  {
+    "id": 19,
+    "image": "./images/throat_pain.jpg",
+    "title": "Throat Pain"
+  },
+  {
+    "id": 20,
+    "image": "./images/cramps.jpg",
+    "title": "Cramps"
+  }
+]

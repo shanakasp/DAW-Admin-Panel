@@ -1,0 +1,79 @@
+.popup {
+  color: #d51313;
+}
+
+.notification {
+  text-align: right;
+}
+
+.paginationandButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: max-content;
+  background-color: #041083;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  white-space: nowrap;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #041083 transparent transparent transparent;
+}
+
+/* Show the tooltip text when hovering */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  /* Adjust the width of the Title column for small screens */
+  .table-container th:nth-child(1),
+  .table-container td:nth-child(1) {
+    width: 30%; /* Adjust as needed */
+  }
+
+  /* Adjust the width of the Input Type column for small screens */
+  .table-container th:nth-child(2),
+  .table-container td:nth-child(2) {
+    width: 30%; /* Adjust as needed */
+  }
+
+  /* Adjust the width of the Answer(s) column for small screens */
+  .table-container th:nth-child(3),
+  .table-container td:nth-child(3) {
+    width: 40%; /* Adjust as needed */
+  }
+}

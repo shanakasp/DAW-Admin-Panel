@@ -1,0 +1,49 @@
+.loginPage {
+  background: url("images/im1.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background: linear-gradient(
+    rgba(11, 11, 11, 0.5),
+    rgba(10, 10, 10, 0.5),
+    url("images/im1.avif")
+  );
+  background-size: cover;
+}
+
+.loginForm {
+  background-color: rgba(101, 102, 103, 0.6);
+  color: white;
+  width: 40%;
+  padding: 5px;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .loginForm {
+    width: 80%;
+  }
+}
+
+#form-dialog-title {
+  width: 550px;
+}
+
+.red-placeholder::placeholder {
+  color: red;
+}

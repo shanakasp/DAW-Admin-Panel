@@ -1,0 +1,44 @@
+.list_item{
+    padding-right: 5px;  
+    gap: 1rem;
+}
+
+.list_item>svg, .list_item>h4{
+    color: #202124;
+}
+
+.list_item_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.list_item_image:hover{
+    /* background-color: none ; */
+    cursor: pointer;
+    
+}
+
+.list_item:hover{
+    cursor: pointer;
+    border-radius: 20px ;
+    background-color: #c4c4d0;
+    color: black;
+    
+}
+
+.navlink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale(0.85);
+}
+
+.navlink:hover{
+    width: 100%;
+}
+

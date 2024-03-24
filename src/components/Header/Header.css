@@ -1,0 +1,34 @@
+.header {
+  position: sticky;
+  margin: 0px 10px;
+  padding: 5px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_info {
+  display: flex;
+  align-items: center;
+}
+
+.header_search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 24px;
+  background-color: #f4f4f9;
+  width: 170px;
+  height: 45px;
+  border-radius: 5px;
+}
+
+.header_search input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+}
